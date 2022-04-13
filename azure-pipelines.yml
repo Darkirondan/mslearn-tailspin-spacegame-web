@@ -6,6 +6,13 @@
 trigger:
 - main
 
+schedules:
+- cron: "0 3 * * 1,2,3,4,5"
+  displayName: Daily 3am build
+  branches:
+    include:
+    - main
+
 pool:
   vmImage: 'windows-latest'
 
