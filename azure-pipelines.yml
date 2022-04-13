@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 schedules:
-- cron: "0 22 * * 1,2,3,4,5"
+- cron: "0 8 * * 1,2,3,4,5"
   displayName: Daily 3am build
   branches:
     include:
